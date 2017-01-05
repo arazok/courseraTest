@@ -2,6 +2,11 @@
 * {
   box-sizing: border-box;
 }
+body {
+	margin: 0;
+	padding: 0;
+}
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
@@ -17,7 +22,7 @@ p {
   font-family: 'Comic Sans MS', 'Helvetica';
   color: black;
   padding: 50px 20px;
-  
+    
 }
 
 .reldiv{
@@ -27,38 +32,28 @@ p {
 header {
 	border: 1px solid black;
 	font-family: 'Comic Sans MS', 'Helvetica';
+	font-size: 1.25em;
 	margin-right: 20px;
 	margin-top: 16px;
 	padding: 5px 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 #head1 {
-	font-size: 1.25em;
 	color: black;
 	background-color: #B08585;
-	position: absolute;
-	top: 0;
-	right: 0;
-
 }
 
 #head2 {
-	font-size: 1.25em;
 	color: white;
 	background-color: #EE3880;
-	position: absolute;
-	top: 0;
-	right: 0;
-	
 }
 
 #head3 {
-	font-size: 1.25em;
 	color: black;
 	background-color: #C6A133;
-	position: absolute;
-	top: 0;
-	right: 0;
 }
 
 
