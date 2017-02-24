@@ -11,19 +11,22 @@ padding: 0;
 text-align: center;
 }
 
-
+header h1 {
+	padding-bottom:20px;
+}
 
 header {
 background: #D1E0E1;
 color: #333;
-font-size: 30px;
+font-size: 45px;
 font-weight: bold;
 line-height: 80px;
+padding:40px;
 
 }
 
 main {
-font-size: 30px;
+font-size: 40px;
 width:100%;
 }
 
@@ -34,22 +37,20 @@ margin: 20px;
 }
 
 input {
-border: 2px solid #AAA;
-border-radius: 3px;
-height: 30px;
-padding: 0 10px;
-font-size: 25px;
+border: 3px solid #AAA;
+height: 94px;
+font-size: 30px;
 }
 
 input.large {
-width: 200px;
-margin: 20px;
+	width:400px;
+	margin:20px;
 }
 
 input.button {
 	font-size:1.0em;
-	width:200px;
-	height:auto;
+	width:400px;
+	height:100px;
 }
 
 
@@ -77,6 +78,16 @@ div#Schatz {
 color: red;
 background: #F7F7DC;
 text-align: center;
+}
+
+.mila {
+	width:auto;
+	height:350px;
+}
+
+.kerzen {
+	height:350px;
+	width:auto;
 }
 
 .backimage {
