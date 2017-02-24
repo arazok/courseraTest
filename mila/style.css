@@ -16,14 +16,14 @@ text-align: center;
 header {
 background: #D1E0E1;
 color: #333;
-font-size: 20px;
+font-size: 30px;
 font-weight: bold;
 line-height: 80px;
 
 }
 
 main {
-font-size: 20px;
+font-size: 30px;
 width:100%;
 }
 
@@ -34,11 +34,13 @@ margin: 20px;
 }
 
 input {
-border: 1px solid #AAA;
+border: 2px solid #AAA;
 border-radius: 3px;
-height: 24px;
-padding: 0 7px;
+height: 30px;
+padding: 0 10px;
+font-size: 25px;
 }
+
 input.large {
 width: 200px;
 margin: 20px;
@@ -75,5 +77,12 @@ div#Schatz {
 color: red;
 background: #F7F7DC;
 text-align: center;
+}
+
+.backimage {
+	background: url("./images/geburtstag.png");
+	width:99%;
+	height:98%;
+	position:absolute;	
 }
 
