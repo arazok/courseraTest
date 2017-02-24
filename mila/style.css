@@ -1,25 +1,29 @@
 @charset "UTF-8";
+
 body, h1, h2, h3, h4, h5, h6, p, ul, dl, ol, form, fieldset, input,
 label, table, tbody, tfoot, th, tr, td, textarea, select {
 border: 0;
 color: #333;
-font-family: "helvetica neue", helvetica, "lucinda sans unicode",
-sans-serif;
-font-size: 16px;
+font-family: 'Comic Sans MS', 'Helvetica';
 font-weight: normal;
 margin: 0;
 padding: 0;
+text-align: center;
 }
+
+
+
 header {
 background: #D1E0E1;
 color: #333;
-height: 80px;
-}
-header h1 {
 font-size: 20px;
 font-weight: bold;
 line-height: 80px;
-text-align: center;
+
+}
+
+main {
+font-size: 20px;
 }
 
 section {
@@ -42,11 +46,27 @@ width: 200px;
 margin: 20px;
 }
 
+input.button {
+	font-size:1.0em;
+	width:200px;
+	height:auto;
+}
+
+
+
 div.infotxt{
 
 }
 
-div#schatz {
+div#schatzbild, div#Lob{
+	padding:20px;
+
+}
+
+div#Schatz {
+	padding: 20px;
+	margin: 20px;
+	border: 2px solid #AAA;
 }
 
 
