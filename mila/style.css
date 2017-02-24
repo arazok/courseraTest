@@ -24,11 +24,9 @@ line-height: 80px;
 
 main {
 font-size: 20px;
+width:100%;
 }
 
-section {
-margin: 20px 0 0 20px;
-}
 
 form {
 text-align: center;
@@ -55,7 +53,10 @@ input.button {
 
 
 div.infotxt{
-
+	
+	margin:20px;
+	padding:10px;
+	text-align:center;
 }
 
 div#schatzbild, div#Lob{
