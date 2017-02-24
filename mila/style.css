@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, dl, ol, form, fieldset, input,
+label, table, tbody, tfoot, th, tr, td, textarea, select {
+border: 0;
+color: #333;
+font-family: "helvetica neue", helvetica, "lucinda sans unicode",
+sans-serif;
+font-size: 16px;
+font-weight: normal;
+margin: 0;
+padding: 0;
+}
+header {
+background: #D1E0E1;
+color: #333;
+height: 80px;
+}
+header h1 {
+font-size: 20px;
+font-weight: bold;
+line-height: 80px;
+text-align: center;
+}
+
+section {
+margin: 20px 0 0 20px;
+}
+
+form {
+text-align: center;
+margin: 20px;
+}
+
+input {
+border: 1px solid #AAA;
+border-radius: 3px;
+height: 24px;
+padding: 0 7px;
+}
+input.large {
+width: 200px;
+margin: 20px;
+}
+
+div.infotxt{
+
+}
+
+div#schatz {
+}
+
+
+.warning {
+color: red;
+background: #F7F7DC;
+text-align: center;
+}
+
